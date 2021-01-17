@@ -1,11 +1,14 @@
+import Header from './components/Header';
+import MainSearch from './components/MainSearch';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <h1>Lluvia de Placas</h1>
+      <header>
+        <Header />
       </header>
       <body>
-        <h2>Contenido</h2>
+        <MainSearch />
       </body>
     </div>
   );
